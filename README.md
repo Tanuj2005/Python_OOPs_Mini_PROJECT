@@ -24,7 +24,7 @@ Usage
 Here’s an example of how to use the decision tree:
 ```
 import numpy as np
-from decision_tree import DecisionTree
+from decisionTree import DecisionTree
 
 # Generate a toy dataset
 X = np.array([[1, 2], [3, 4], [5, 6], [7, 8]])
