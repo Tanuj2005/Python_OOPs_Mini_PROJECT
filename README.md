@@ -20,7 +20,6 @@ git clone <your-repo-url>
 cd <repo-name>
 ```
 
-
 Usage
 Here’s an example of how to use the decision tree:
 ```
@@ -41,8 +40,9 @@ tree.fit(X, y)
 predictions = tree.predict(X)
 print("Predictions:", predictions)
 ```
+
 Parameters
-min_samples_split: Minimum number of samples required to split a node (default: 2).
-max_depth: Maximum depth of the tree (default: 100).
-n_features: Number of features to consider for the best split (default: all features).
+min_samples_split: Minimum number of samples required to split a node (default: 2).<br/>
+max_depth: Maximum depth of the tree (default: 100).<br/>
+n_features: Number of features to consider for the best split (default: all features).<br/>
 
