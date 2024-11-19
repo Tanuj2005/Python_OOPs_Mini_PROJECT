@@ -18,13 +18,12 @@ Clone the repository and make sure you have Python installed with `numpy`.
 ```bash
 git clone <your-repo-url>
 cd <repo-name>
+```
 
 
 Usage
 Here’s an example of how to use the decision tree:
-
-python
-Copy code
+```
 import numpy as np
 from decision_tree import DecisionTree
 
@@ -41,9 +40,9 @@ tree.fit(X, y)
 # Make predictions
 predictions = tree.predict(X)
 print("Predictions:", predictions)
-
-
+```
 Parameters
 min_samples_split: Minimum number of samples required to split a node (default: 2).
 max_depth: Maximum depth of the tree (default: 100).
 n_features: Number of features to consider for the best split (default: all features).
+
